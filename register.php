@@ -112,9 +112,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                         <label class="form-label" for="confirm_password">Repeat your password</label>
                                         <input type="password" id="confirm_password" class="form-control form-control-lg" name="confirm_password" required />
                                     </div>
-
-                                    <div class="form-check d-flex justify-content-center mb-5"></div>
-
                                     <div class="d-flex justify-content-center">
                                         <button type="submit" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
                                     </div>
