@@ -12,8 +12,12 @@ This is a simple Contact Management Dashboard built with PHP and MySQL. It allow
 - Delete contacts
 - View list of contacts
 - Prevent duplicate phone numbers for the same user
-  
+
+<br/>  
+
 ![Screenshot 2024-06-13 232404](https://github.com/nitish2k03/TaxiBazaar/assets/90318230/4ae29786-9cad-4c00-820a-faf1a83e46e0)
+
+<br/>
 
 ## Prerequisites
 
