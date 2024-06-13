@@ -1,7 +1,5 @@
 <h1 align="center">Contact Book</h1> 
 
-# Contact Management Dashboard
-
 This is a simple Contact Management Dashboard built with PHP and MySQL. It allows users to add, edit, delete, and view their contacts. Users need to log in to access the dashboard, and each user has their own set of contacts.
 
 <h3 align="center"><a href="http://phpcontactbook.infinityfreeapp.com/"><strong>Want to see live preview »</strong></a></h3>
