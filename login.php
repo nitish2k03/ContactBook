@@ -51,8 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="row g-0">
               <div class="col-lg-6">
                 <div class="card-body p-md-5 mx-md-4">
-  
-  
+
                   <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
                     <p>Please login to your account</p>
                     <?php if (isset($error)) { echo '<p style="color: red;">'. $error. '</p>'; }?>
