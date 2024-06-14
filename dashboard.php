@@ -147,7 +147,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
             <div class="form-outline mb-4">
                 <label class="form-label" for="phone">Phone</label>
-                <input type="text" id="phone" class="form-control" name="phone" required />
+                <input type="text" id="phone" class="form-control" name="phone" pattern="\d+"  required />
             </div>
             <button type="submit" name="create" class="btn btn-success mb-4">Add Contact</button>
         </form>
@@ -169,7 +169,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 </div>
                                 <div class="form-outline mb-4">
                                     <label class="form-label" for="phone">Phone</label>
-                                    <input type="text" id="phone" class="form-control" name="phone" value="<?php echo htmlspecialchars($_POST['phone']); ?>" required />
+                                    <input type="text" id="phone" class="form-control" pattern="\d+"  name="phone" value="<?php echo htmlspecialchars($_POST['phone']); ?>" required />
                                 </div>
                                 <button type="submit" name="update" class="btn btn-primary">Update Contact</button>
                             </form>
